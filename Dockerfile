@@ -12,4 +12,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["gunicorn", "-c", "gunicorn_config.py", "main:app"]
+CMD ["uvicorn", "main:app ", "--workers 4", "--host 0.0.0.0","--port 5000","--reload","--log-level info"]
+
