@@ -12,5 +12,6 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["uvicorn", "main:app ", "--workers 4", "--host 0.0.0.0","--port 5000","--reload","--log-level info"]
+# Specify the CMD as an array
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000", "--reload", "--log-level", "info"]
 
