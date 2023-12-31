@@ -28,4 +28,4 @@ $ docker run -p 5000:5000 file-service
 
 ## License
 
-Email-Service is [MIT licensed](LICENSE).
+File-Service is [MIT licensed](LICENSE).
