@@ -36,10 +36,10 @@ $ docker run -p 5000:5000 file-service
 - **Method:** POST
 - **Description:** Upload an image for the image-client category to Google Drive.
 - **Parameters:** 
-    `file: FileParams` - JSON body with the file_path parameter.
+    -`file: FileParams` - JSON body with the file_path parameter.
 - **Response:**
-    `200`: Successful file upload with the file URL.
-    `500`: Failed to upload file.
+    -`200`: Successful file upload with the file URL.
+    -`500`: Failed to upload file.
 
 ### 3. Upload Image for Image-Vihecule Category
 
@@ -47,10 +47,10 @@ $ docker run -p 5000:5000 file-service
 - **Method:** POST
 - **Description:** Upload an image for the image-vihecule category to Google Drive.
 - **Parameters:** 
-    `file: FileParams` - JSON body with the file_path parameter.
+    -`file: FileParams` - JSON body with the file_path parameter.
 - **Response:**
-    `200`: Successful file upload with the file URL.
-    `500`: Failed to upload file.
+    -`200`: Successful file upload with the file URL.
+    -`500`: Failed to upload file.
 
 ### 4. Upload PDF Contract to Drive
 
@@ -58,10 +58,10 @@ $ docker run -p 5000:5000 file-service
 - **Method:** POST
 - **Description:** Upload a PDF contract to Google Drive.
 - **Parameters:** 
-    `file: FileParams` - JSON body with the file_path parameter.
+    -`file: FileParams` - JSON body with the file_path parameter.
 - **Response:**
-    `200`: Successful file upload with the file URL.
-    `500`: Failed to upload file.
+    -`200`: Successful file upload with the file URL.
+    -`500`: Failed to upload file.
 
 ### 5. Upload Image for Driver Licence Category
 
@@ -69,10 +69,10 @@ $ docker run -p 5000:5000 file-service
 - **Method:** POST
 - **Description:** Upload an image for the driver-licence category to Google Drive.
 - **Parameters:** 
-    `file: FileParams` - JSON body with the file_path parameter.
+    -`file: FileParams` - JSON body with the file_path parameter.
 - **Response:**
-    `200`: Successful file upload with the file URL.
-    `500`: Failed to upload file.
+    -`200`: Successful file upload with the file URL.
+    -`500`: Failed to upload file.
 
 ### 6.  Upload Image for National Identity Card Category
 
@@ -80,10 +80,10 @@ $ docker run -p 5000:5000 file-service
 - **Method:** POST
 - **Description:** Upload an image for the national-identity-card category to Google Drive.
 - **Parameters:** 
-    `file: FileParams` - JSON body with the file_path parameter.
+    -`file: FileParams` - JSON body with the file_path parameter.
 - **Response:**
-    `200`: Successful file upload with the file URL.
-    `500`: Failed to upload file.
+    -`200`: Successful file upload with the file URL.
+    -`500`: Failed to upload file.
 
 
 
