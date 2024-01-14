@@ -98,4 +98,4 @@ $ docker run -p 5000:5000 file-service
 
 ## License
 
-File-Service is [MIT licensed](LICENSE).
+File-Service is [GPL licensed](LICENSE).
