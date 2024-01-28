@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven'
-    }
     environment {
         // Customize these variables based on your project
         DOCKER_HUB_REPO = 'ouail02/file-service'
